@@ -163,10 +163,10 @@ function HomePage() {
         <div className="relative z-10 text-center px-4">
           <Brain className="w-24 h-24 mx-auto mb-8 text-cyan-400 animate-pulse" />
           <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-            Data. Marketing. Code.
+            Samuel González S.
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Transformando datos en conocimiento, ideas en estrategias y código
+            Data. Marketing. Code. | Transformando datos en conocimiento, ideas en estrategias y código
             en soluciones.
           </p>
         </div>
@@ -176,7 +176,7 @@ function HomePage() {
       <section className="py-20 bg-gray-800/50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-            Servicios
+            ¿Cómo te puedo aportar valor?
           </h2>
           <div className="relative max-w-4xl mx-auto">
             <div className="flex items-center justify-between">
