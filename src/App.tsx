@@ -77,21 +77,21 @@ const blogPosts = [
   {
     slug: 'futuro-marketing-digital-ia',
     title: 'El Futuro del Marketing Digital en la Era de la IA',
-    date: '2024-03-15',
+    date: '2025-02-10',
     excerpt:
       'Explorando cómo la inteligencia artificial está transformando las estrategias de marketing digital...',
   },
   {
     slug: 'machine-learning-prediccion-mercado',
     title: 'Machine Learning para Predicción de Tendencias de Mercado',
-    date: '2024-03-10',
+    date: '2025-02-10',
     excerpt:
       'Un análisis profundo sobre cómo utilizar algoritmos de ML para anticipar cambios en el mercado...',
   },
   {
     slug: 'arquitecturas-modernas-desarrollo-web',
     title: 'Arquitecturas Modernas en Desarrollo Web',
-    date: '2024-03-05',
+    date: '2025-02-10',
     excerpt:
       'Guía completa sobre las últimas tendencias en arquitecturas de desarrollo web...',
   },
@@ -179,32 +179,42 @@ function HomePage() {
             ¿Cómo te puedo aportar valor?
           </h2>
           <div className="relative max-w-4xl mx-auto">
-            <div className="flex items-center justify-between">
-              <button
-                onClick={prevService}
-                className="p-2 hover:text-cyan-400 transition-colors"
-              >
-                <ChevronLeft className="w-8 h-8" />
-              </button>
-              <div className="flex-1 px-8">
-                <div className="text-center flex flex-col items-center">
-                  <div className="mb-4">{services[currentService].icon}</div>
-                  <h3 className="text-2xl font-bold mb-2">
-                    {services[currentService].title}
-                  </h3>
-                  <p className="text-gray-400">
-                    {services[currentService].description}
-                  </p>
-                </div>
-              </div>
-              <button
-                onClick={nextService}
-                className="p-2 hover:text-cyan-400 transition-colors"
-              >
-                <ChevronRight className="w-8 h-8" />
-              </button>
+  <div className="flex items-center justify-between">
+    <button
+      onClick={prevService}
+      className="p-2 hover:text-cyan-400 transition-colors z-10"
+    >
+      <ChevronLeft className="w-8 h-8" />
+    </button>
+    
+    <div className="flex-1 px-8 overflow-hidden relative h-64">
+      <div
+        className="flex transition-transform duration-500 ease-in-out absolute inset-0"
+        style={{ transform: `translateX(-${currentService * 100}%)` }}
+      >
+        {services.map((service, index) => (
+          <div
+            key={index}
+            className="w-full flex-shrink-0 px-4 h-full flex items-center justify-center"
+          >
+            <div className="text-center flex flex-col items-center max-w-md">
+              <div className="mb-4">{service.icon}</div>
+              <h3 className="text-2xl font-bold mb-2">{service.title}</h3>
+              <p className="text-gray-400">{service.description}</p>
             </div>
           </div>
+        ))}
+      </div>
+    </div>
+
+    <button
+      onClick={nextService}
+      className="p-2 hover:text-cyan-400 transition-colors z-10"
+    >
+      <ChevronRight className="w-8 h-8" />
+    </button>
+  </div>
+</div>
         </div>
       </section>
 
@@ -312,7 +322,7 @@ function HomePage() {
       <section className="py-20 bg-gray-800/50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-            Contacto
+            Pongámonos en Contacto
           </h2>
           <form
             ref={formRef}
