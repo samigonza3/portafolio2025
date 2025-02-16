@@ -11,7 +11,7 @@ import {
   ChevronLeft,
   ChevronRight,
   Database,
-  BarChart3,
+  Linkedin,
   Globe,
   Mail,
 } from 'lucide-react';
@@ -166,9 +166,33 @@ function HomePage() {
             Samuel González S.
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
-            Data. Marketing. Code. | Transformando datos en conocimiento, ideas en estrategias y código
-            en soluciones.
+            Data | Marketing | Code
           </p>
+        </div>
+      </section>
+
+      {/* Sobre Mí Section */}
+      <section className="py-20 bg-gray-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
+            {/* Foto */}
+            <div className="w-full md:w-1/3 flex justify-center">
+              <img
+                src="/samuel-perfil.6836711e.jpg" // Reemplaza con la URL de tu foto
+                alt="Samuel González"
+                className="w-64 h-64 rounded-full object-cover border-4 border-cyan-400/50 shadow-lg"
+              />
+            </div>
+            {/* Texto */}
+            <div className="w-full md:w-2/3 text-center md:text-left">
+              <h2 className="text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
+                Sobre Mí
+              </h2>
+              <p className="text-lg text-gray-300 mb-4">
+                Soy un profesional apasionado por la intersección entre el marketing digital, la ciencia de datos y el desarrollo web. Con más de 13 años de experiencia en estrategias data-driven, he trabajado en proyectos que van desde la optimización de medios pagados hasta la implementación de soluciones de Machine Learning.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -387,6 +411,14 @@ function HomePage() {
               className="text-gray-400 hover:text-cyan-400 transition-colors"
             >
               <Mail className="w-6 h-6" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/samuelgonzalez/" // Reemplaza con tu enlace de LinkedIn
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-400 hover:text-cyan-400 transition-colors"
+            >
+              <Linkedin className="w-6 h-6" />
             </a>
           </div>
           <p className="text-gray-500">© 2025 Todos los derechos reservados</p>
