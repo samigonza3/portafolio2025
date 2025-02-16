@@ -14,6 +14,9 @@ import {
   Linkedin,
   Globe,
   Mail,
+  Rocket,
+  BookOpenText,
+  Sparkles
 } from 'lucide-react';
 import BlogPost from './components/BlogPost';
 
@@ -155,7 +158,9 @@ function HomePage() {
   };
 
   return (
+
     <div className="min-h-screen bg-gray-900 text-gray-100">
+      
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1451187580459-43490279c0fa?ixlib=rb-1.2.1&auto=format&fit=crop&w=1920&q=80')] bg-cover bg-center opacity-20"></div>
@@ -165,9 +170,16 @@ function HomePage() {
           <h1 className="text-6xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
             Samuel González S.
           </h1>
-          <p className="text-xl text-gray-300 max-w-2xl mx-auto">
+          <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-8">
             Data, Marketing & Code
           </p>
+          {/* Botón CTA */}
+          <a
+            href="#services" // ID de la sección de servicios
+            className="inline-block px-8 py-3 bg-gradient-to-r from-purple-600 to-cyan-600 text-white font-semibold rounded-lg hover:from-purple-700 hover:to-cyan-700 transition-all"
+          >
+            Descubre cómo puedo ayudarte
+          </a>
         </div>
       </section>
 
@@ -189,7 +201,7 @@ function HomePage() {
                 Sobre Mí
               </h2>
               <p className="text-lg text-gray-300 mb-4">
-                Soy un profesional apasionado por la intersección entre el marketing digital, la ciencia de datos y el desarrollo web. Con más de 13 años de experiencia en estrategias data-driven, he trabajado en proyectos que van desde la optimización de medios pagados hasta la implementación de soluciones de Machine Learning.
+              Con más de 13 años de experiencia, ayudo a empresas a tomar decisiones basadas en datos, optimizar sus estrategias digitales y desarrollar soluciones tecnológicas innovadoras.
               </p>
             </div>
           </div>
@@ -197,7 +209,7 @@ function HomePage() {
       </section>
 
       {/* Services Carousel */}
-      <section className="py-20 bg-gray-800/50">
+      <section id="services" className="py-20 bg-gray-800/50"> {/* Asigna el ID aquí */}
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
             ¿Cómo te puedo aportar valor?
@@ -401,7 +413,6 @@ function HomePage() {
           </form>
         </div>
       </section>
-
       {/* Footer */}
       <footer className="py-8 bg-gray-900 border-t border-gray-800">
         <div className="container mx-auto px-4 text-center">
