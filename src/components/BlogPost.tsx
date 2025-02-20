@@ -196,6 +196,77 @@ const blogPosts: Record<string, BlogPostData> = {
       </div>
     `,
   },
+  'astrologia-y-estrategia-empresarial': {
+    title: "Astrología, Estrategia y Poder: Lo Que No Te Cuentan los CEO",
+    date: "2025-02-20",
+    author: "Samuel González",
+    readTime: "6 min",
+    metaDescription: "La historia del poder siempre ha estado ligada al dominio del tiempo. Desde las antiguas civilizaciones hasta los magnates modernos, quienes logran adelantarse a los ciclos han mantenido el control. Mientras la mayoría de los empresarios se enfocan exclusivamente en datos y proyecciones financieras,(...)",
+    tags: ["Astrologia", "Estrategia"],
+    relatedPosts: ["futuro-marketing-digital-ia", "machine-learning-prediccion-mercado"],
+    content: `
+    <p>El tiempo no es solo un recurso: es una ventaja estratégica. <br><br>  
+    Desde los emperadores hasta los titanes de Wall Street, quienes dominan los ciclos han mantenido el poder. <br>  
+    Mientras la mayoría se enfoca en métricas financieras, hay quienes miran más allá: <em>los que entienden que el éxito sigue patrones más grandes</em>. 🔥</p>  
+    <br />  
+    
+    <div class="section">  
+      <h2>🌌 1. El tiempo como estrategia: Astrología y negocios</h2>  
+      <br />  
+      <p>JP Morgan lo dijo sin rodeos: <strong>"Los millonarios no usan astrología, los billonarios sí."</strong></p>  
+      <br />  
+      <p>¿Por qué? Porque los mercados, la innovación y las crisis siguen patrones cíclicos. Así como la Luna afecta las mareas,  
+      los movimientos planetarios parecen resonar con cambios históricos, económicos y empresariales.</p>  
+      <br />  
+      <p><strong>Ejemplos de uso:</strong></p>  
+      <ul>  
+        <li>📈 <em>JP Morgan</em>: Usaba astrólogos personales para tomar decisiones financieras.</li>  
+        <li>🏦 <em>Hong Kong Stock Exchange</em>: Ha recurrido a análisis astrológicos en fechas clave.</li>  
+        <li>🚀 <em>Silicon Valley</em>: Algunos fundadores han utilizado astrología para lanzamientos estratégicos.</li>  
+        <li>🀄 <em>China y el I Ching</em>: Empresas asiáticas usan ciclos astrológicos para definir movimientos corporativos.</li>  
+      </ul>  
+    </div>  
+    <br />  
+    
+    <div class="section">  
+      <h2>🔄 2. Los ritmos del poder: Jung, ciclos y mercados</h2>  
+      <br />  
+      <p><strong>Carl Jung</strong> introdujo el concepto de <em>inconsciente colectivo</em>: patrones simbólicos que afectan el comportamiento humano.  
+      Esto se extiende a la economía, las tendencias de consumo y los cambios culturales.</p>  
+      <br />  
+      <p><strong>Ejemplo:</strong> Así como Saturno tarda 29 años en dar la vuelta al Sol, su retorno coincide con crisis y reestructuraciones  
+      en la vida de líderes y empresas. Coincidencia… ¿o patrón?</p>  
+    </div>  
+    <br />  
+    
+    <div class="section">  
+      <h2>⚡ 3. Claves astrológicas para la estrategia empresarial</h2>  
+      <br />  
+      <p>Si los mercados son cíclicos, <strong>¿por qué no anticiparlos?</strong> Aquí algunas claves usadas por empresarios estratégicos:</p>  
+      <ul>  
+        <li>🪐 <strong>Júpiter:</strong> Expansión y crecimiento. Ideal para escalar o lanzar un proyecto.</li>  
+        <li>⚔️ <strong>Saturno:</strong> Pruebas y estructura. Su retorno suele traer crisis y redefiniciones.</li>  
+        <li>📉 <strong>Mercurio retrógrado:</strong> Más fallos en contratos y sistemas. Mejor para revisar, no para lanzar.</li>  
+        <li>🌘 <strong>Eclipses:</strong> Cambios abruptos en la economía y reestructuraciones empresariales.</li>  
+      </ul>  
+      <br />  
+      <blockquote>  
+        “Las tendencias no surgen de la nada; son parte de un flujo más grande que ha sido observado por milenios.”  
+      </blockquote>  
+    </div>  
+    <br />  
+    
+    <div class="cta">  
+      <h2>🚀 ¿Quieres anticiparte a los ciclos del éxito?</h2>  
+      <ul>  
+        <li><strong>🔍 Paso 1:</strong> Identifica cómo los ciclos han afectado tu negocio o carrera.</li>  
+        <li><strong>📊 Paso 2:</strong> Aprende a interpretar los ritmos del mercado con herramientas astrológicas.</li>  
+        <li><strong>🔮 Consulta personalizada:</strong> Explora cómo usar estos ciclos a tu favor.</li>  
+      </ul>  
+      <button>Explorar mi consulta astrológica 🔥</button>  
+    </div>  
+    `,
+  },
 };
 
 export default function BlogPost() {
