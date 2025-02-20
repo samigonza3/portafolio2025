@@ -205,13 +205,11 @@ const blogPosts: Record<string, BlogPostData> = {
     tags: ["Astrologia", "Estrategia"],
     relatedPosts: ["futuro-marketing-digital-ia", "machine-learning-prediccion-mercado"],
     content: `
-    <p>El tiempo no es solo un recurso: es una ventaja estratégica. <br><br>  
-    Desde los emperadores hasta los titanes de Wall Street, quienes dominan los ciclos han mantenido el poder. <br>  
-    Mientras la mayoría se enfoca en métricas financieras, hay quienes miran más allá: <em>los que entienden que el éxito sigue patrones más grandes</em>. 🔥</p>  
+    <p>La historia del poder siempre ha estado ligada al dominio del tiempo. Desde las antiguas civilizaciones hasta los magnates modernos, quienes logran adelantarse a los ciclos han mantenido el control. Mientras la mayoría de los empresarios se enfocan exclusivamente en datos y proyecciones financieras, hay quienes miran más allá: aquellos que entienden que los mercados, la innovación y la toma de decisiones están profundamente entrelazados con patrones más grandes.</p>  
     <br />  
     
     <div class="section">  
-      <h2>🌌 1. El tiempo como estrategia: Astrología y negocios</h2>  
+      <h2>🌌 El tiempo como estrategia: Astrología y negocios</h2>  
       <br />  
       <p>JP Morgan lo dijo sin rodeos: <strong>"Los millonarios no usan astrología, los billonarios sí."</strong></p>  
       <br />  
@@ -229,44 +227,76 @@ const blogPosts: Record<string, BlogPostData> = {
     <br />  
     
     <div class="section">  
-      <h2>🔄 2. Los ritmos del poder: Jung, ciclos y mercados</h2>  
-      <br />  
-      <p><strong>Carl Jung</strong> introdujo el concepto de <em>inconsciente colectivo</em>: patrones simbólicos que afectan el comportamiento humano.  
-      Esto se extiende a la economía, las tendencias de consumo y los cambios culturales.</p>  
-      <br />  
-      <p><strong>Ejemplo:</strong> Así como Saturno tarda 29 años en dar la vuelta al Sol, su retorno coincide con crisis y reestructuraciones  
-      en la vida de líderes y empresas. Coincidencia… ¿o patrón?</p>  
+    <h2>🔄 Los ritmos del poder: Jung, ciclos y mercados</h2>
+    <br />
+    <p><strong>Carl Jung</strong> revolucionó la psicología al introducir el concepto de <em>inconsciente colectivo</em>, una red de símbolos, mitos y arquetipos compartidos por la humanidad. Estos patrones no solo influyen en decisiones individuales, sino que también se reflejan en la economía, las tendencias de consumo y los cambios culturales a gran escala.</p>
+    <br />
+    <p>Observamos que los mercados financieros y las transformaciones empresariales no se comportan de forma aleatoria. Tomemos como ejemplo a <strong>Saturno</strong>: este planeta completa su órbita en 29 años, un periodo que se conoce como el <em>retorno de Saturno</em>. Durante este ciclo, muchos líderes y empresas atraviesan crisis que, lejos de ser accidentes, marcan el final de una etapa y el comienzo de una nueva era estratégica.</p>
+    <br />
+    <p>¿Es mera coincidencia que estas reestructuraciones se alineen con el retorno de Saturno? Para quienes interpretan los ciclos desde una perspectiva profunda, esto no es azar, sino una manifestación del <em>inconsciente colectivo</em> en acción. Los ritmos del universo y los patrones ancestrales influyen en el destino empresarial, ofreciendo una clave para entender y anticipar los grandes cambios.</p>
+    <br />
+    <blockquote>
+      “El tiempo es un ciclo, y cada final abre la puerta a un nuevo comienzo.”
+    </blockquote>
     </div>  
     <br />  
     
     <div class="section">  
-      <h2>⚡ 3. Claves astrológicas para la estrategia empresarial</h2>  
-      <br />  
-      <p>Si los mercados son cíclicos, <strong>¿por qué no anticiparlos?</strong> Aquí algunas claves usadas por empresarios estratégicos:</p>  
-      <ul>  
-        <li>🪐 <strong>Júpiter:</strong> Expansión y crecimiento. Ideal para escalar o lanzar un proyecto.</li>  
-        <li>⚔️ <strong>Saturno:</strong> Pruebas y estructura. Su retorno suele traer crisis y redefiniciones.</li>  
-        <li>📉 <strong>Mercurio retrógrado:</strong> Más fallos en contratos y sistemas. Mejor para revisar, no para lanzar.</li>  
-        <li>🌘 <strong>Eclipses:</strong> Cambios abruptos en la economía y reestructuraciones empresariales.</li>  
-      </ul>  
-      <br />  
-      <blockquote>  
-        “Las tendencias no surgen de la nada; son parte de un flujo más grande que ha sido observado por milenios.”  
-      </blockquote>  
+    <h2>⚡ Claves astrológicas para la estrategia empresarial</h2>
+    <br />
+    <p>Los mercados no son lineales, sino cíclicos. Cada auge, crisis y recuperación sigue patrones que han sido estudiados por generaciones. Si los economistas analizan tendencias históricas, ¿por qué los empresarios estratégicos no aprovecharían también los ciclos astrológicos para anticiparse a los cambios?</p>
+    <br />
+    <p>Algunos de los patrones más utilizados en planificación empresarial incluyen:</p>
+    <br />
+    <ul>
+      <li><strong>🪐 Júpiter (Expansión y Crecimiento):</strong> Representa la abundancia, la visión a largo plazo y la expansión. Cuando Júpiter transita por áreas clave en la carta de una empresa o un líder, es el momento ideal para escalar negocios, lanzar nuevos productos o hacer inversiones ambiciosas.</li>
+      <br />
+      <li><strong>⚔️ Saturno (Pruebas y Estructura):</strong> El planeta de la disciplina y la consolidación. Su retorno (cada 29 años) suele coincidir con crisis que obligan a restructurar empresas y redefinir modelos de negocio. No es un mal momento, pero sí uno de depuración, donde solo sobreviven las estrategias sólidas.</li>
+      <br />
+      <li><strong>📉 Mercurio retrógrado (Revisión y Ajustes):</strong> Durante estos periodos (que ocurren tres o cuatro veces al año), se incrementan los fallos en sistemas, contratos y comunicación. No es el mejor momento para lanzar un producto o firmar acuerdos importantes, pero sí para revisar estrategias, renegociar contratos y mejorar procesos internos.</li>
+      <br />
+      <li><strong>🌘 Eclipses (Transformación y Reestructuración):</strong> Son momentos de cambios abruptos en la economía global. Muchas fusiones empresariales, crisis financieras y giros inesperados en el mercado han ocurrido en sincronía con eclipses. Para los estrategas, estos periodos no son de pánico, sino de oportunidades: las estructuras rígidas caen, y los visionarios toman la delantera.</li>
+    </ul>
+    <br />
+    <blockquote>
+      "Las tendencias no surgen de la nada; son parte de un flujo más grande que ha sido observado por milenios."
+    </blockquote>
     </div>  
     <br />  
     
     <div class="cta">  
-      <h2>🚀 ¿Quieres anticiparte a los ciclos del éxito?</h2>  
-      <ul>  
-        <li><strong>🔍 Paso 1:</strong> Identifica cómo los ciclos han afectado tu negocio o carrera.</li>  
-        <li><strong>📊 Paso 2:</strong> Aprende a interpretar los ritmos del mercado con herramientas astrológicas.</li>  
-        <li><strong>🔮 Consulta personalizada:</strong> Explora cómo usar estos ciclos a tu favor.</li>  
-      </ul>  
-      <button>Explorar mi consulta astrológica 🔥</button>  
-    </div>  
+    <h2>🚀 ¿Quieres anticiparte a los ciclos del éxito?</h2>
+    <p>El mercado y la vida profesional no son caóticos: siguen ritmos que pueden ser analizados y aprovechados estratégicamente.</p>
+  
+    <br />
+  
+    <h3>🔍 Paso 1: Observa los ciclos en acción</h3>
+    <p>Examina cómo los movimientos planetarios han coincidido con momentos clave en tu negocio o carrera.  
+    ¿Cómo te ha impactado Júpiter en expansión? ¿Saturno en pruebas? ¿Las sorpresas de Urano?</p>
+  
+    <br />
+  
+    <h3>📊 Paso 2: Usa herramientas astrológicas para interpretar el mercado</h3>
+    <ul>
+      <li><strong>Tránsitos diarios:</strong> Revisa cómo los planetas activan diferentes áreas de tu vida y negocio cada día.</li>
+      <li><strong>Carta natal personal:</strong> Tu configuración astral revela tus fortalezas y desafíos en el mundo profesional.</li>
+      <li><strong>Carta natal empresarial:</strong> La fecha de fundación de tu empresa define su propósito, retos y oportunidades de crecimiento.</li>
+    </ul>
+  
+    <br />
+  
+    <h3>🔮 Consulta personalizada: Usa estos ciclos a tu favor</h3>
+    <p>Comprender los tránsitos y su impacto en tu carta natal y la de tu negocio puede marcar la diferencia en la toma de decisiones estratégicas.  
+    Descubre cuándo es el mejor momento para lanzar un proyecto, consolidar una estructura o hacer ajustes clave.</p>
+  
+    </div>
+    <br />
+
+  <a target="_blank" href="https://tarot-astral-cali.netlify.app/?utm_source=blog-astrologia-empresarial&utm_medium=blog" class="text-cyan-400 hover:underline">¿Te gustaría comenzar tu camino astrológico? Haz clic aquí.</a>
+
     `,
   },
+  
 };
 
 export default function BlogPost() {
