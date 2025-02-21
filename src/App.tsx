@@ -13,6 +13,7 @@ import {
   Database,
   Linkedin,
   Globe,
+  ChevronDown,
   Mail,
 } from 'lucide-react';
 import BlogPost from './components/BlogPost';
@@ -107,6 +108,7 @@ const blogPosts = [
 function HomePage() {
   const [currentService, setCurrentService] = useState(0);
   const formRef = useRef<HTMLFormElement>(null);
+  const servicesRef = useRef<HTMLElement>(null);
   const [formStatus, setFormStatus] = useState<{
     message: string;
     type: 'success' | 'error' | null;
@@ -114,6 +116,10 @@ function HomePage() {
     message: '',
     type: null,
   });
+
+  const scrollToServices = () => {
+    servicesRef.current?.scrollIntoView({ behavior: 'smooth' });
+  };
 
   const nextService = () => {
     setCurrentService((prev) => (prev + 1) % services.length);
@@ -175,6 +181,13 @@ function HomePage() {
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Data | Marketing | Code
           </p>
+          <button
+            onClick={scrollToServices}
+            className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold rounded-lg hover:opacity-90 transition-all duration-300 hover:gap-3"
+          >
+            Conoce cómo te puedo aportar
+            <ChevronDown className="w-5 h-5 animate-bounce" />
+          </button>
         </div>
       </section>
 
@@ -198,13 +211,14 @@ function HomePage() {
               <p className="text-lg text-gray-300 mb-4">
                 Soy un profesional apasionado por la intersección entre el marketing digital, la ciencia de datos y el desarrollo web. Con más de 10 años de experiencia en estrategias data-driven, he trabajado en proyectos que van desde la optimización de medios pagados hasta la implementación de soluciones de Machine Learning.
               </p>
+              
             </div>
           </div>
         </div>
       </section>
 
       {/* Services Carousel */}
-      <section className="py-20 bg-gray-800/50">
+      <section id="services" ref={servicesRef} className="py-20 bg-gray-800/50 scroll-mt-16">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
             ¿Cómo te puedo aportar valor?
