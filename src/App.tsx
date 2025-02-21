@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
 import {
@@ -107,6 +107,7 @@ const blogPosts = [
 
 function HomePage() {
   const [currentService, setCurrentService] = useState(0);
+  const [autoPlay, setAutoPlay] = useState(true);
   const formRef = useRef<HTMLFormElement>(null);
   const servicesRef = useRef<HTMLElement>(null);
   const [formStatus, setFormStatus] = useState<{
@@ -123,11 +124,25 @@ function HomePage() {
 
   const nextService = () => {
     setCurrentService((prev) => (prev + 1) % services.length);
+    setAutoPlay(false); // Detener el autoplay cuando el usuario interactúa
+    setTimeout(() => setAutoPlay(true), 10000); // Reiniciar el autoplay después de 10 segundos
   };
 
   const prevService = () => {
     setCurrentService((prev) => (prev - 1 + services.length) % services.length);
+    setAutoPlay(false); // Detener el autoplay cuando el usuario interactúa
+    setTimeout(() => setAutoPlay(true), 10000); // Reiniciar el autoplay después de 10 segundos
   };
+
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    if (autoPlay) {
+      interval = setInterval(() => {
+        setCurrentService((prev) => (prev + 1) % services.length);
+      }, 3000); // Cambiar cada 3 segundos
+    }
+    return () => clearInterval(interval); // Limpiar el intervalo al desmontar el componente
+  }, [autoPlay]);
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -198,7 +213,7 @@ function HomePage() {
             {/* Foto */}
             <div className="w-full md:w-1/3 flex justify-center">
               <img
-                src="/samuel-perfil.6836711e.jpg" // Reemplaza con la URL de tu foto
+                src="/samuel-perfil.6836711e.jpg" 
                 alt="Samuel González"
                 className="w-64 h-64 rounded-full object-cover border-4 border-cyan-400/50 shadow-lg"
               />
