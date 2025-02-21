@@ -260,8 +260,9 @@ function HomePage() {
       <ChevronRight className="w-8 h-8" />
     </button>
   </div>
-</div><br/><div className="text-center flex flex-col items-center max-w-md">
-              <h4 className="text-2xl mb-2">💡 Si eres una agencia, emprendedor o empresa y quieres escalar con marketing digital basado en datos, automatización y optimización real, hablemos.</h4>
+</div><br/>
+<div className="flex justify-center text-center items-center max-w-2xl mx-auto">
+              <h4 className="text-2xl text-center mb-2">💡 Si eres una agencia, emprendedor o empresa y quieres escalar con marketing digital basado en datos, automatización y optimización real, hablemos.</h4>
             </div>
         </div>
         
