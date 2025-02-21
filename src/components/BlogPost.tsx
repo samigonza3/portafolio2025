@@ -217,7 +217,8 @@ const blogPosts: Record<string, BlogPostData> = {
       los movimientos planetarios parecen resonar con cambios históricos, económicos y empresariales.</p>  
       <br />  
       <p><strong>Ejemplos de uso:</strong></p>  
-      <ul>  
+      <ul>
+      <li>✔️ Apple ha alineado varios de sus grandes lanzamientos con ciclos astrológicos favorables. No es casualidad que sus keynotes y productos icónicos coincidan con momentos clave en el calendario astrológico.</li>    
         <li>📈 <em>JP Morgan</em>: Usaba astrólogos personales para tomar decisiones financieras.</li>  
         <li>🏦 <em>Hong Kong Stock Exchange</em>: Ha recurrido a análisis astrológicos en fechas clave.</li>  
         <li>🚀 <em>Silicon Valley</em>: Algunos fundadores han utilizado astrología para lanzamientos estratégicos.</li>  

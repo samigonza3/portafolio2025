@@ -196,7 +196,7 @@ function HomePage() {
                 Sobre Mí
               </h2>
               <p className="text-lg text-gray-300 mb-4">
-                Soy un profesional apasionado por la intersección entre el marketing digital, la ciencia de datos y el desarrollo web. Con más de 7 años de experiencia en estrategias data-driven, he trabajado en proyectos que van desde la optimización de medios pagados hasta la implementación de soluciones de Machine Learning.
+                Soy un profesional apasionado por la intersección entre el marketing digital, la ciencia de datos y el desarrollo web. Con más de 10 años de experiencia en estrategias data-driven, he trabajado en proyectos que van desde la optimización de medios pagados hasta la implementación de soluciones de Machine Learning.
               </p>
             </div>
           </div>
