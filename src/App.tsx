@@ -180,7 +180,7 @@ function HomePage() {
           </h1>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto">
             Data | Marketing | Code
-          </p>
+          </p><br/><br/>
           <button
             onClick={scrollToServices}
             className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-semibold rounded-lg hover:opacity-90 transition-all duration-300 hover:gap-3"
