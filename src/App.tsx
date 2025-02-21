@@ -250,6 +250,7 @@ function HomePage() {
           </div>
         ))}
       </div>
+      
     </div>
 
     <button
@@ -259,8 +260,12 @@ function HomePage() {
       <ChevronRight className="w-8 h-8" />
     </button>
   </div>
-</div>
+</div><br/><div className="text-center flex flex-col items-center max-w-md">
+              <h4 className="text-2xl mb-2">💡 Si eres una agencia, emprendedor o empresa y quieres escalar con marketing digital basado en datos, automatización y optimización real, hablemos.</h4>
+            </div>
         </div>
+        
+
       </section>
 
       {/* Experience Section */}
