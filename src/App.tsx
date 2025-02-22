@@ -124,7 +124,7 @@ const companies = [
   },
   {
     name: "Banco de Occidente",
-    logo: "/Banco_de_Occidente_logo.svg",
+    logo: "/Banco_de_Occidente_logo.png",
   },
   {
     name: "Applebees",
