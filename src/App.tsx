@@ -105,6 +105,33 @@ const blogPosts = [
   },
 ];
 
+const companies = [
+  {
+    name: "Telefonica Hispam",
+    logo: "/OIP (1).jpg",
+  },
+  {
+    name: "UNICEF",
+    logo: "/logo-UNICEF-500x281.png",
+  },
+  {
+    name: "CarSync",
+    logo: "/logo_black.svg",
+  },
+  {
+    name: "Learn English",
+    logo: "/learn_english_international_logo.jpg",
+  },
+  {
+    name: "Banco de Occidente",
+    logo: "/banco-de-occidente-logo-vector.png",
+  },
+  {
+    name: "Applebees",
+    logo: "/OIP (3).jpg",
+  }
+];
+
 function HomePage() {
   const [currentService, setCurrentService] = useState(0);
   const [autoPlay, setAutoPlay] = useState(true);
@@ -312,6 +339,28 @@ function HomePage() {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+       {/* Companies Section */}
+      <section className="py-16 bg-gray-900">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
+              {companies.map((company, index) => (
+                <div 
+                  key={index} 
+                  className="w-full h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-50 hover:opacity-100"
+                >
+                  <img
+                    src={company.logo}
+                    alt={`Logo de ${company.name}`}
+                    className="max-h-12 w-auto object-contain"
+                  />
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </section>
