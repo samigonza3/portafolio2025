@@ -108,7 +108,7 @@ const blogPosts = [
 const companies = [
   {
     name: "Telefonica Hispam",
-    logo: "/OIP (1).jpg",
+    logo: "/Telefonica-Logo-500x281.png",
   },
   {
     name: "UNICEF",
@@ -124,11 +124,11 @@ const companies = [
   },
   {
     name: "Banco de Occidente",
-    logo: "/banco-de-occidente-logo-vector.png",
+    logo: "/Banco_de_Occidente_logo.svg",
   },
   {
     name: "Applebees",
-    logo: "/OIP (3).jpg",
+    logo: "/applebees-png-logo-6501.png",
   }
 ];
 
