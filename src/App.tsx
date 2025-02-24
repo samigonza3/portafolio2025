@@ -325,59 +325,59 @@ function HomePage() {
 
       </section>
 
-      {/* Experience Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-            Experiencia Reciente
-          </h2>
-          <div className="max-w-4xl mx-auto space-y-8">
-            {experiences.map((exp, index) => (
-              <div
-                key={index}
-                className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-cyan-500/20 transition-colors"
-              >
-                <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0">{exp.icon}</div>
-                  <div>
-                    <h3 className="text-xl font-bold text-white">
-                      {exp.position}
-                    </h3>
-                    <div className="flex items-center space-x-2 mb-2">
-                      <span className="text-purple-400">{exp.company}</span>
-                      <span className="text-gray-500">•</span>
-                      <span className="text-gray-400">{exp.period}</span>
-                    </div>
-                    <p className="text-gray-400">{exp.description}</p>
-                  </div>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
-       {/* Companies Section */}
-      <section className="py-16 bg-gray-900">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <div className="grid grid-cols-2 md:grid-cols-5 gap-8 items-center justify-items-center">
-              {companies.map((company, index) => (
-                <div 
-                  key={index} 
-                  className="w-full h-20 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-50 hover:opacity-100"
-                >
-                  <img
-                    src={company.logo}
-                    alt={`Logo de ${company.name}`}
-                    className="max-h-12 w-auto object-contain"
-                  />
+      {/* Experience Carousel */}
+      <section id="experiencia" className="py-16 bg-gray-900">
+  <div className="container mx-auto px-4">
+    <h2 className="text-4xl font-bold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
+      Experiencia Reciente
+    </h2>
+
+    <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-center max-w-6xl mx-auto">
+      {/* Experiencia */}
+      <div className="space-y-4">
+        {experiences.map((exp, index) => (
+          <div
+            key={index}
+            className="bg-gray-800/50 p-4 rounded-lg border border-gray-600 hover:border-cyan-500 transition-all"
+          >
+            <div className="flex items-center gap-4">
+              <div className="text-cyan-400 text-3xl">{exp.icon}</div>
+              <div>
+                <h3 className="text-lg font-semibold text-white">{exp.position}</h3>
+                <div className="flex items-center space-x-2 text-sm text-gray-400 mb-1">
+                  <span className="text-purple-400">{exp.company}</span>
+                  <span className="text-gray-500">•</span>
+                  <span>{exp.period}</span>
                 </div>
-              ))}
+                <p className="text-sm text-gray-400 leading-tight">{exp.description}</p>
+              </div>
             </div>
           </div>
+        ))}
+      </div>
+
+      {/* Logos de empresas */}
+      <div className="bg-gray-800/50 p-4 rounded-lg border border-gray-600">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
+          {companies.map((company, index) => (
+            <div 
+              key={index} 
+              className="w-full h-16 flex items-center justify-center grayscale hover:grayscale-0 transition-all duration-300 opacity-50 hover:opacity-100"
+            >
+              <img
+                src={company.logo}
+                alt={`Logo de ${company.name}`}
+                className="max-h-12 w-auto object-contain"
+              />
+            </div>
+          ))}
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+
 
       {/* Education Section */}
       <section className="py-20 bg-gray-800/50">
@@ -420,32 +420,37 @@ function HomePage() {
       </section>
 
       {/* Blog Section */}
-      <section className="py-20 bg-gray-900">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
-            Blog
-          </h2>
-          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-            {blogPosts.map((post, index) => (
-              <article
-                key={index}
-                className="bg-gray-800/50 p-6 rounded-lg border border-gray-700 hover:border-cyan-500/50 transition-colors"
-              >
-                <time className="text-sm text-gray-400">{post.date}</time>
-                <h3 className="text-xl font-bold mt-2 mb-4">{post.title}</h3>
-                <p className="text-gray-400 mb-4">{post.excerpt}</p>
-                <Link
-                  to={`/blog/${post.slug}`}
-                  className="text-cyan-400 hover:text-cyan-300 inline-flex items-center"
-                >
-                  Leer más
-                  <ChevronRight className="w-4 h-4 ml-2" />
-                </Link>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
+      <section className="py-16 bg-gray-900">
+  <div className="container mx-auto px-4">
+    <h2 className="text-4xl font-bold text-center mb-12 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
+      Blog
+    </h2>
+    <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+      {blogPosts.map((post, index) => (
+        <article
+          key={index}
+          className="bg-gray-800/50 p-4 rounded-lg border border-gray-600 hover:border-cyan-500 transition-all hover:bg-gray-800"
+        >
+          <time className="text-xs text-gray-400">{post.date}</time>
+          <h3 className="text-lg font-semibold mt-1 mb-3 text-white">
+            {post.title}
+          </h3>
+          <p className="text-sm text-gray-400 leading-relaxed">
+            {post.excerpt}
+          </p>
+          <Link
+            to={`/blog/${post.slug}`}
+            className="text-cyan-400 hover:text-cyan-300 inline-flex items-center mt-3 font-medium"
+          >
+            Leer más
+            <ChevronRight className="w-4 h-4 ml-2" />
+          </Link>
+        </article>
+      ))}
+    </div>
+  </div>
+</section>
+
 
       {/* Contact Form */}
       <section id="contacto" className="py-20 bg-gray-800/50">
