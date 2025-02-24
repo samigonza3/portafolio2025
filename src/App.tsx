@@ -46,7 +46,7 @@ const experiences = [
     period: '2022 - 2025',
     description:
       'Optimizé medios pagados en las operaciones de la región Hispanoamérica, maximizando ROI con modelos de atribución, automatización y audiencias first-party.',
-    icon: <Globe className="w-12 h-12 text-blue-400" />,
+    icon: <Globe className="w-12 h-12 text-cyan-400" />,
   },
   {
     company: 'UNICEF Colombia',
@@ -62,7 +62,7 @@ const experiences = [
     period: '2019 - 2020',
     description:
       'Escalé campañas de performance para grandes marcas, optimizando CAC y ROAS con automatización y segmentación avanzada.',
-    icon: <Globe className="w-12 h-12 text-green-400" />,
+    icon: <Globe className="w-12 h-12 text-cyan-400" />,
   },
   {
     company: 'Banco de Occidente',
@@ -70,7 +70,15 @@ const experiences = [
     period: '2018 - 2019',
     description:
       'Mejoré la conversión en Occiauto Digital con Growth Hacking, A/B testing y optimización UX/UI, reduciendo drop-off y aumentando aprobaciones digitales del producto.',
-    icon: <Code2 className="w-12 h-12 text-blue-400" />,
+    icon: <Code2 className="w-12 h-12 text-cyan-400" />,
+  },
+  {
+    company: 'Freelance',
+    position: 'Full Stack Digital Marketer',
+    period: '2012 - Actualidad',
+    description:
+      'Fusiono Marketing, Data & Code para crear estrategias digitales integrales, optimizando adquisición, automatización y analítica avanzada.',
+    icon: <Globe className="w-12 h-12 text-cyan-400" />,
   },
 ];
 
@@ -319,12 +327,13 @@ function HomePage() {
 </div><br/>
 <div className="flex justify-center text-center items-center max-w-2xl mx-auto">
   <div className="bg-gray-900/50 border border-cyan-400 rounded-lg p-6 shadow-lg">
-    <h4 className="text-2xl font-bold text-white mb-4">
+    <h4 className="text-2xl font-light text-white mb-4">
       💡 ¿Quieres escalar tu negocio con <span className="text-cyan-400">marketing digital basado en datos</span>, automatización y optimización real?
     </h4>
-    <p className="text-gray-300">
-      Si eres una agencia, emprendedor o empresa, hablemos y diseñemos una estrategia que maximice tu crecimiento.
-    </p>
+    <p className="text-gray-300">  
+  Si eres una <strong>agencia</strong>, <strong>emprendedor</strong> o <strong>empresa</strong>, hablemos y diseñemos una estrategia que maximice tu crecimiento.  
+</p>
+
     <a 
       href="#contacto"
       className="mt-4 inline-block bg-cyan-400 text-gray-900 font-semibold px-6 py-3 rounded-full transition-all hover:bg-cyan-300"
@@ -346,8 +355,6 @@ function HomePage() {
     <h2 className="text-4xl font-bold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
       Experiencia Reciente
     </h2>
-
-    {/* Cambia el grid a una sola columna */}
     <div className="grid gap-8 items-center max-w-6xl mx-auto">
       {/* Experiencia */}
       <div className="space-y-4">
@@ -374,6 +381,9 @@ function HomePage() {
 
       {/* Logos de empresas */}
       <div className="bg-gray-800/50 p-4 rounded-lg border border-gray-600">
+      <h2 className="text-2xl font-semibold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
+      Marcas que han confiado en mí
+    </h2>
         <div className="grid grid-cols-2 md:grid-cols-3 gap-6 justify-items-center">
           {companies.map((company, index) => (
             <div 
