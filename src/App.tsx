@@ -45,7 +45,7 @@ const experiences = [
     position: 'Paid Media Specialist',
     period: '2022 - 2025',
     description:
-      'Optimización de medios pagados y estrategias data-driven para maximizar ROI en la región.',
+      'Optimizé medios pagados en las operaciones de la región Hispanoamérica, maximizando ROI con modelos de atribución, automatización y audiencias first-party.',
     icon: <Globe className="w-12 h-12 text-blue-400" />,
   },
   {
@@ -53,7 +53,7 @@ const experiences = [
     position: 'Paid Media Specialist',
     period: '2020 - 2022',
     description:
-      'Responsable de las metas mensuales de donación mediante la optimización de medios pagados, analítica y CRO.',
+      'Ejecuté la estrategia de adquisición de donantes por el canal digital, superando metas con CRO, A/B testing y segmentación data-driven.',
     icon: <Globe className="w-12 h-12 text-cyan-400" />,
   },
   {
@@ -61,7 +61,7 @@ const experiences = [
     position: 'Sr. Performance Strategist',
     period: '2019 - 2020',
     description:
-      'Lideré estrategias digitales de performance para marcas como UNICEF, Carsync Location y Universidad del Rosario.',
+      'Escalé campañas de performance para grandes marcas, optimizando CAC y ROAS con automatización y segmentación avanzada.',
     icon: <Globe className="w-12 h-12 text-green-400" />,
   },
   {
@@ -69,7 +69,7 @@ const experiences = [
     position: 'CRO Growth Hacker',
     period: '2018 - 2019',
     description:
-      'Optimización de conversión y crecimiento para un producto digital de crédito vehicular mediante estrategias data-driven y A/B testing.',
+      'Mejoré la conversión en Occiauto Digital con Growth Hacking, A/B testing y optimización UX/UI, reduciendo drop-off y aumentando aprobaciones digitales del producto.',
     icon: <Code2 className="w-12 h-12 text-blue-400" />,
   },
 ];
