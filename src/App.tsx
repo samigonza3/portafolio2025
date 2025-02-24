@@ -327,13 +327,14 @@ function HomePage() {
 
 
       {/* Experience Carousel */}
-      <section id="experiencia" className="py-16 bg-gray-900">
+<section id="experiencia" className="py-16 bg-gray-900">
   <div className="container mx-auto px-4">
     <h2 className="text-4xl font-bold text-center mb-10 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
       Experiencia Reciente
     </h2>
 
-    <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-center max-w-6xl mx-auto">
+    {/* Cambia el grid a una sola columna */}
+    <div className="grid gap-8 items-center max-w-6xl mx-auto">
       {/* Experiencia */}
       <div className="space-y-4">
         {experiences.map((exp, index) => (
