@@ -115,21 +115,31 @@ const companies = [
     logo: "/logo-UNICEF-500x281.png",
   },
   {
-    name: "CarSync",
-    logo: "/logo_black.svg",
+    name: "Applebees",
+    logo: "/applebees-png-logo-6501.png",
   },
   {
-    name: "Learn English",
-    logo: "/learn_english_international_logo.jpg",
+    name: "CarSync",
+    logo: "/logo_black.svg",
   },
   {
     name: "Banco de Occidente",
     logo: "/Banco_de_Occidente_logo.png",
   },
   {
-    name: "Applebees",
-    logo: "/applebees-png-logo-6501.png",
-  }
+    name: "El Bardo Bogotá",
+    logo: "/el_bardo.webp",
+  },
+  {
+    name: "Learn English",
+    logo: "/learn_english_international_logo.jpg",
+  },
+  {
+    name: "Tres Cuatro Cinco Bogotá",
+    logo: "/tres_cuatro_cinco.webp",
+  },
+
+  
 ];
 
 function HomePage() {
