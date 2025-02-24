@@ -138,6 +138,10 @@ const companies = [
     name: "Tres Cuatro Cinco Bogotá",
     logo: "/tres_cuatro_cinco.webp",
   },
+  {
+    name: "Tay Beach",
+    logo: "/tay_beach.jpg",
+  },
 
   
 ];
