@@ -304,8 +304,22 @@ function HomePage() {
   </div>
 </div><br/>
 <div className="flex justify-center text-center items-center max-w-2xl mx-auto">
-              <h4 className="text-2xl text-center mb-2">💡 Si eres una agencia, emprendedor o empresa y quieres escalar con marketing digital basado en datos, automatización y optimización real, hablemos.</h4>
-            </div>
+  <div className="bg-gray-900/50 border border-cyan-400 rounded-lg p-6 shadow-lg">
+    <h4 className="text-2xl font-bold text-white mb-4">
+      💡 ¿Quieres escalar tu negocio con <span className="text-cyan-400">marketing digital basado en datos</span>, automatización y optimización real?
+    </h4>
+    <p className="text-gray-300">
+      Si eres una agencia, emprendedor o empresa, hablemos y diseñemos una estrategia que maximice tu crecimiento.
+    </p>
+    <a 
+      href="#contacto"
+      className="mt-4 inline-block bg-cyan-400 text-gray-900 font-semibold px-6 py-3 rounded-full transition-all hover:bg-cyan-300"
+    >
+      Hablemos 🚀
+    </a>
+  </div>
+</div>
+
         </div>
         
 
@@ -434,7 +448,7 @@ function HomePage() {
       </section>
 
       {/* Contact Form */}
-      <section className="py-20 bg-gray-800/50">
+      <section id="contacto" className="py-20 bg-gray-800/50">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold text-center mb-16 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-400">
             Pongámonos en Contacto
