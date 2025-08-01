@@ -41,6 +41,14 @@ const services = [
 
 const experiences = [
   {
+    company: 'Smartmuscle Lab',
+    position: 'Coord. de Marketing Digital',
+    period: '2025',
+    description:
+      'Lideré la creación del ecosistema digital de Smart Muscle: desarrollamos un e‑commerce enfocado en conversión, activamos redes sociales con enfoque comercial, automatizamos procesos con IA, usamos analítica de datos para decisiones estratégicas y abrimos nuevos canales como marketplaces para diversificar ingresos.',
+    icon: <Globe className="w-12 h-12 text-cyan-400" />,
+  },
+  {
     company: 'Telefónica Hispam',
     position: 'Paid Media Specialist',
     period: '2022 - 2025',
@@ -115,6 +123,9 @@ const blogPosts = [
 
 const companies = [
   {
+    name: "Smartmuscle Lab",
+    logo: "/OIP.webp",
+  },{
     name: "Telefonica Hispam",
     logo: "/Telefonica-Logo-500x281.png",
   },
