@@ -17,6 +17,7 @@ import {
   Mail,
 } from 'lucide-react';
 import BlogPost from './components/BlogPost';
+import GoogleAdsChecklist from './components/GoogleAdsChecklist';
 
 const services = [
   {
@@ -579,6 +580,7 @@ function App() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/blog/:slug" element={<BlogPost />} />
+      <Route path="/google-ads-checklist" element={<GoogleAdsChecklist />} />
     </Routes>
   );
 }
