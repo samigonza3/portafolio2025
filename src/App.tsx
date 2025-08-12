@@ -266,6 +266,7 @@ function HomePage() {
           </button>
         </div>
       </section>
+    </div>
             
   )
 }
